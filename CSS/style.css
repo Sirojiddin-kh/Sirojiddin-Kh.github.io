@@ -1,0 +1,48 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+.wrapper{
+    background-color:#2f2d3d;
+    padding: 15px;
+}
+h1 {
+    font-family: Monospaced;
+}
+.about-me{
+    border-bottom: 1px solid white;
+    padding:5px;
+}
+h2 {
+    font-family: Helvetica;
+    color: aliceblue;
+}
+p{
+    font-family: Chilanka;
+}
+.mood{
+    display:flex;
+    justify-content: space-around;
+}
+.sad{
+    width:257px;
+    transition: all .2s linear;
+}
+.happy{
+    width:257px;
+    height:146px;
+    transition: all .2s linear;
+}
+img:hover{
+    transform:scale(1.2);
+}
+
+
+a{
+    text-decoration:none;
+    margin-left: 10px;
+}
+a:hover{
+    text-decoration:underline;
+
+}
