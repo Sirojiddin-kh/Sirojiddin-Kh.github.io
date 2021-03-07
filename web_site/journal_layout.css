@@ -1,0 +1,72 @@
+body{
+    background: url("../web_site/images/back.jpg") center,
+    no-repeat;
+    -webkit-background-size: cover;
+     background-size: cover;
+}
+.wrap{
+    border: 10px solid white;
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+}
+/*=============== header ================*/
+.header{
+    background-color: #A8F0F0;
+    text-align: end;
+}
+.header h2{
+    font-size: 14px;
+}
+
+.block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+/*=============== left block ================*/
+.left_block{
+    border: 5px solid #009097;
+    width: 20%;
+    height: 100px;
+    padding: 10px;
+    background-color: #A8F0F0;
+}
+.left_block ul li{
+    position: relative;
+    list-style: none;
+}
+.left_block ul li:after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #009097;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: -12px;
+    top: 7px;
+}
+/*=============== right block ================*/
+.right_block{
+    width: 75%;
+}
+.inner_block{
+    border: 4px solid #C2E9E9;
+    background-color: #E8FBFB;
+    padding: 5px;
+    height: 210px;
+}
+.inner_block h2 span{
+    border-bottom: 2px dashed blue;
+}
+.inner_block img{
+    float: right;
+}
+
+/*=============== hover for all elements ================*/
+.add:hover{
+    color: yellow;
+}
